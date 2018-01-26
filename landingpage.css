@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+#firstArticle{
+  width: 50%;
+  display: table;
+  margin: auto;
+}
+#topnav{
+  height: 50px;
+  background: black;
+}
+.ulmenu{
+  display: table;
+  margin: auto;
+}
+.ulmenu li{
+  float: left;
+  padding: 10px;
+  list-style: none;
+}
+.ulmenu li a{
+  text-decoration: none;
+  font-size: 10px;
+  color: #ffffff;
+}
+#firstArticle img{
+  width:120px;
+  border-right: 1px solid #ffff;
+  border-width: thin;
+  padding: 0 60px 0 0;
+  float: left;
+  margin-top: 20px;
+}
+.create{
+  color: #ffff;
+  font-weight: lighter;
+  font-size: 20px;
+  float: right;
+  margin-top: 40px;
+}
+#firstArticle iframe{
+  float: right;
+  margin-top: 20px;
+}
+#firstArticle ul{
+  list-style: none;
+  margin-top: 10px;
+}
+#tabel{
+  clear: left;
+  float: left;
+}
+#tabel li a{
+  line-height: 41px;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: white;
+}
+.free {
+  clear: both;
+  color: #ffff;
+  display: table;
+  margin: auto;
+  padding: 20px;
+  font-weight: lighter;
+}
+.inputDiv{
+background-color: black;
+display: table;
+margin: auto;
+margin-bottom: 10px;
+}
+.inputClass{
+  padding: 5px 12px 5px 12px;
+  border-radius: 3px;
+}
+.inputClass input{
+  border-radius: 3px;
+  border: none;
+  padding: 4px 0px 4px 0px;
+  width: 130px;
+  margin: 5px;
+}
+.inputClass input[type=submit]{
+  text-align: center;
+  width: 160px;
+}
+#secondArticle{
+  width: 50%;
+  display: table;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.siteFrame{
+  clear: both;
+  float: left;
+  border: none;
+}
+.articleText{
+  float:right;
+  font-size: 9.5px;
+  line-height: 1.615em;
+}
+.textLeft{
+  float: left;
+}
+.textRight{
+  float: right;
+}
+
+#logos{
+  clear: both;
+  width:50%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+#logos img{
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#threeSections{
+  clear: both;
+  width: 50%;
+  margin-top: 20px;
+  font-size: 9.5px;
+  line-height: 1.615em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top:20px;
+}
+.leftArticle{
+float: left;
+}
+.leftArticle p{
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+.leftArticleImg img{
+float: left;
+}
+#copyright{
+  height: 50px;
+  background: #323232;
+}
+.footerCopyright{
+  clear: both;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.footerCopyright p{
+  font-size: 9.5px;
+}
